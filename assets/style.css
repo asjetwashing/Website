@@ -517,6 +517,10 @@ footer {
         display: block;
     }
 
+    .about-image {
+        display: none;
+    }
+
     .mobile-nav.active {
         display: block;
         position: absolute;
@@ -534,6 +538,22 @@ footer {
 
     .mobile-nav ul li {
         margin: 1rem 0;
+    }
+
+    #hero {
+        padding: 4rem 1rem;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -713,12 +733,13 @@ nav ul li a.cta-button-header::after {
 
 .contact-card p {
     margin: 0;
+    color: #343a40;
 }
 
-.contact-card a {
-    color: #007bff;
+.contact-card-link {
+    display: block;
     text-decoration: none;
-    font-weight: 600;
+    color: inherit;
 }
 
 .cta-button-wrapped {
